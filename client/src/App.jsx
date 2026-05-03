@@ -2,10 +2,10 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from "./Pages/Login";
 import Signup from "./Pages/Signup";
 import Home from "./Pages/Home";
-import Cart from "./Pages/Cart";
 import Orders from "./Pages/Orders";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
+import Cart from "./Pages/Cart";
 
 function App() {
   return (

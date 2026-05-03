@@ -35,7 +35,7 @@ export default function Home() {
             <Navbar />
 
             {/* Title */}
-            <div className="p-6 text-center">
+            <div className="bg-gradient-to-r from-orange-400 to-orange-500 text-white p-6 text-center">
                 <h2 className="text-3xl font-bold mb-2">Explore Delicious Food</h2>
                 <p className="text-gray-600">Choose your favorite meal</p>
             </div>
@@ -45,7 +45,7 @@ export default function Home() {
                 {menu.map((item) => (
                     <div
                         key={item.id}
-                        className="bg-white rounded-xl shadow hover:shadow-lg transition p-4"
+                        className="bg-white rounded-xl shadow hover:shadow-xl hover:scale-105 transition duration-300 p-4"
                     >
                         {/* Image */}
                         <img
@@ -67,7 +67,7 @@ export default function Home() {
                         {/* Button */}
                         <button
                             onClick={() => handleAddToCart(item)}
-                            className="mt-3 w-full bg-orange-500 text-white py-2 rounded-lg hover:bg-orange-600"
+                            className="mt-3 w-full bg-orange-500 text-white py-2 rounded-lg hover:bg-orange-600 transition duration-200 active:scale-95"
                         >
                             Add to Cart
                         </button>
