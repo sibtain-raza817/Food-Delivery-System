@@ -1,20 +1,18 @@
 [
-  {
-    "id": 1,
-    "name": "Burger",
-    "price": 120,
-    "image": "https://images.unsplash.com/photo-1550547660-d9450f859349"
-  },
-  {
-    "id": 2,
-    "name": "Pizza",
-    "price": 250,
-    "image": "https://images.unsplash.com/photo-1548365328-5c1b7b7f6b6d"
-  },
-  {
-    "id": 3,
-    "name": "Pasta",
-    "price": 180,
-    "image": "https://images.unsplash.com/photo-1525755662778-989d0524087e"
-  }
+  { "id": 1, "name": "Burger", "price": 120, "image": "https://images.unsplash.com/photo-1550547660-d9450f859349" },
+  { "id": 2, "name": "Pizza", "price": 250, "image": "https://images.unsplash.com/photo-1548365328-5c1b7b7f6b6d" },
+  { "id": 3, "name": "Pasta", "price": 180, "image": "https://images.unsplash.com/photo-1525755662778-989d0524087e" },
+  { "id": 4, "name": "Sandwich", "price": 90, "image": "https://images.unsplash.com/photo-1553909489-cd47e0ef937f" },
+  { "id": 5, "name": "French Fries", "price": 80, "image": "https://images.unsplash.com/photo-1541592106381-b31e9677c0e5" },
+  { "id": 6, "name": "Noodles", "price": 150, "image": "https://images.unsplash.com/photo-1589307004395-0a3b9a45b1b1" },
+  { "id": 7, "name": "Biryani", "price": 220, "image": "https://images.unsplash.com/photo-1604908176997-4315d3b1c7c2" },
+  { "id": 8, "name": "Ice Cream", "price": 60, "image": "https://images.unsplash.com/photo-1497032205916-ac775f0649ae" },
+  { "id": 9, "name": "Dosa", "price": 100, "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950" },
+  { "id": 10, "name": "Paneer Tikka", "price": 200, "image": "https://images.unsplash.com/photo-1604908554027-47d9c59bcb2d" },
+  { "id": 11, "name": "Chicken Curry", "price": 240, "image": "https://images.unsplash.com/photo-1604908177522-4027b4d4b8c0" },
+  { "id": 12, "name": "Momos", "price": 110, "image": "https://images.unsplash.com/photo-1601050690117-8bce9b8d60d4" },
+  { "id": 13, "name": "Tacos", "price": 170, "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38" },
+  { "id": 14, "name": "Salad Bowl", "price": 140, "image": "https://images.unsplash.com/photo-1546069901-eacef0df6022" },
+  { "id": 15, "name": "Chocolate Cake", "price": 130, "image": "https://images.unsplash.com/photo-1601979031925-424e53b6caaa" },
+  { "id": 16, "name": "Cold Coffee", "price": 90, "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93" }
 ]
