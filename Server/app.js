@@ -12,12 +12,12 @@ app.use(express.json());
 const menuRoutes = require("./routes/menuRoutes");
 const authRoutes = require("./routes/authRoutes");
 const cartRoutes = require("./routes/cartRoutes");
-const orderRoutes = require("./routes/orderRoutes"); // ADD THIS
+const orderRoutes = require("./routes/orderRoutes"); 
 
 app.use("/api/menu", menuRoutes);
 app.use("/api/auth", authRoutes);
-app.use("/api/cart", cartRoutes);   // ADD THIS
-app.use("/api/order", orderRoutes); // ADD THIS
+app.use("/api/cart", cartRoutes); 
+app.use("/api/order", orderRoutes); 
 
 // Test route
 app.get("/", (req, res) => {
