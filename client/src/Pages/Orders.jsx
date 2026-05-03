@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import API from "../services/api";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 export default function Orders() {
     const [orders, setOrders] = useState([]);
@@ -87,6 +88,7 @@ export default function Orders() {
                     </div>
                 )}
             </div>
+            <Footer />
         </div>
     );
 }

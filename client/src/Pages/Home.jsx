@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import API from "../services/api";
 import { useNavigate } from "react-router-dom";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 export default function Home() {
     const [menu, setMenu] = useState([]);
@@ -74,6 +75,7 @@ export default function Home() {
                     </div>
                 ))}
             </div>
+            <Footer />
         </div>
     );
 }
